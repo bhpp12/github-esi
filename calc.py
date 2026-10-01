@@ -7,5 +7,5 @@ def sub(x, y):
 def mult(x, y): 
     return x * y
 
-def div(x, y):
-    return x / y
+  def div(x, y):
+      return x / y if y != 0 else None
